@@ -1,8 +1,10 @@
 
 body {
     position: absolute;
+/*
     margin: 0;
     padding: 0;
+*/
     overflow-x: hidden;
 }
 .top_header {
@@ -14,10 +16,12 @@ body {
 .nav_bar {
 
     background-color: beige;
-    height: 50px;
+    
     padding-top: 10px;
     padding-left: 20px;
     margin-right: 0px;
+    
+    height: 40px;
     width: 1000px;
 
 }
@@ -39,10 +43,10 @@ body {
     height: 500px;
     width: 900px;
     
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
 /*    position: absolute;*/
 }
@@ -53,13 +57,13 @@ body {
     height: 100%;
     width: 100%;
     background-attachment: fixed;
-    background-position: 50px 200px;
+    background-position: center 0;
     background-repeat: no-repeat;
-/*    background-size: contain;*/
+    background-size:cover;
     
+
 /*    margin-top: 100px;*/
 }   
-
 
 .Restaurant_word{
     text-decoration: none;
@@ -87,7 +91,7 @@ body {
 /*main introduction*/
 
 .introduction {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 70px;
 /*    position: absolute;*/
 }
