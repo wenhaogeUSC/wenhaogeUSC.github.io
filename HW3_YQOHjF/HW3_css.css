@@ -18,7 +18,7 @@ body {
     padding-top: 10px;
     padding-left: 20px;
     margin-right: 0px;
-    width: 950px;
+    width: 1000px;
 
 }
 .nav_bar a {
@@ -50,11 +50,11 @@ body {
     background-image: url("https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg");
 /*    background-image: url("./Restaurant.jpeg");*/
     
-    height: 500px;
-    width: 915px;
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
-    background-position: top left;
-    background-repeat: repeat-y;
+    background-position: 50px 200px;
+    background-repeat: no-repeat;
 /*    background-size: contain;*/
     
 /*    margin-top: 100px;*/
