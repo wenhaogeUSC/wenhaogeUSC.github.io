@@ -1,7 +1,9 @@
+
 body {
     position: absolute;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .top_header {
     color: navy;
@@ -16,7 +18,8 @@ body {
     padding-top: 10px;
     padding-left: 20px;
     margin-right: 0px;
-    width: 1000px;
+    width: 950px;
+
 }
 .nav_bar a {
     font-size: 20px;
@@ -32,21 +35,29 @@ body {
 }
 
 /*restaurant_view*/
-
-.restaurant_view {
-    background-image: url("https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg");
-/*    background-image: url("./Restaurant.jpeg");*/
+.restaurant_view_outer {
     height: 500px;
-    width: 915px;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 90% 90%;
+    width: 900px;
     
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    
+/*    position: absolute;*/
+}
+.restaurant_view_inner {
+    background-image: url("https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg");
+/*    background-image: url("./Restaurant.jpeg");*/
+    
+    height: 500px;
+    width: 915px;
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-y;
+/*    background-size: contain;*/
+    
+/*    margin-top: 100px;*/
 }   
 
 
@@ -58,8 +69,8 @@ body {
     position: absolute;
     text-align: center;
     
-    margin-top: 16%;
-    margin-left: 25%;
+    padding-top: 16%;
+    padding-left: 17%;
 }
 .Restaurant_button a {
     color: black;
@@ -68,8 +79,9 @@ body {
     text-decoration: none;
     font-size: 20px;
     position: absolute;
+    
     margin-top: 35%;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 
 /*main introduction*/
@@ -77,6 +89,7 @@ body {
 .introduction {
     margin-top: 60px;
     margin-left: 70px;
+/*    position: absolute;*/
 }
 
 .introduction h {
@@ -87,6 +100,7 @@ body {
     text-decoration-line: underline;
     text-decoration-style: double;
     
+    padding-left: 25%;
     margin-top: 50px;
     padding-top: 50px;
 }
@@ -117,7 +131,7 @@ h3 {
     display: inline; 
     float:right;
     padding-top: 60px;
-    padding-left: 120px;
+    padding-left: 100px;
 }
 
 
@@ -158,7 +172,7 @@ h3 {
     float: right;
     display: inline; 
     padding-top: 60px;
-    padding-left: 120px;
+    padding-left: 100px;
 }
 
 
