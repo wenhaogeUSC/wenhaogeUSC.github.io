@@ -1,0 +1,180 @@
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.top_header {
+    color: navy;
+    padding-left: 400px;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.nav_bar {
+
+    background-color: beige;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-right: 0px;
+    width: 1100px;
+}
+.nav_bar a {
+
+    font-size: 20px;
+    font-weight: 400px;
+	margin-left: 10px;
+    padding-left: 20px;
+	text-decoration: none;
+}
+
+/*restaurant_view*/
+
+.restaurant_img {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.restaurant_view {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}   
+
+
+.Restaurant_word{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.Restaurant_button a {
+    color: black;
+    background-color: white;
+    border-style: double;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 7px;
+}
+
+/*main introduction*/
+
+.introduction {
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.introduction h {
+    color: purple;
+    padding-left: 300px;
+    font-size: 25px;
+    font-family: "Monaco", monospace;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+introduction {
+    padding: 30px;
+    margin: 0px;
+}
+
+h3 {
+    color: darkblue;
+}
+
+
+/*italian*/
+#italian{
+    float: left;
+}
+#italian_img img {
+    border: 10px #fae8f3 solid;
+}
+#italian_img {
+    float:left;
+    display: inline; 
+}
+
+#italian_description {
+    display: inline; 
+    float:right;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+
+
+/*indian */
+#indian{
+    float: left;
+}
+#indian_img img {
+    border: 10px #abe3ed solid;
+
+}
+#indian_img {
+    display: inline; 
+    float: right;
+    padding-left: 180px;
+}
+#indian_description {
+    display: inline; 
+    float: left;
+    padding-top: 60px;
+    
+}
+
+
+/*japanese*/
+#japanese {
+    float: left;
+}
+#japanese_img img {
+    border: 10px #fae8f3 solid;
+}
+#japanese_img {
+    float:left;
+    display: inline; 
+}
+#japanese_description {
+    float: right;
+    display: inline; 
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+
+
+/*desserts*/
+#desserts {
+    float: left;
+}
+#desserts_img img {
+    border: 10px #abe3ed solid;
+}
+#desserts_img {
+    float: right;
+    padding-left: 180px;
+}
+
+#desserts_description {
+    float: left;
+    padding-top: 60px;
+}
+
+
+
+

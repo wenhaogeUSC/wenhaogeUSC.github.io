@@ -3,73 +3,93 @@
 <html>
   <head>
       <title>Home | Menu</title>
-      <link href="" rel='stylesheet' type='text/css'>
+      <link rel='stylesheet' href="./HW3_css.css"  type='text/css'>
+<!--      <link rel='stylesheet' href="./HW3_css.css"  type='text/css'>-->
   </head>
     
   <body>
       <head>
-          <head>Trojan Cafe</head>
-          <nav>
-              <a href="https://wenhaogeUSC.github.io/HW3_YQOHjF/HW3_home.html">Home</a>
-              <a href="">Italian</a>
-              <a href="">Indian</a>
-              <a href="">Japanese</a>
-              <a href="">Desserts</a>
-              <a href="">About</a>
-              <a href="">Contact</a>
-          </nav>
+          <div class="top_header">
+              <h1>Trojan Cafe
+              </h1>
+          </div>
           
+          <div class="nav_bar">
+              <nav>
+                  <a href="https://wenhaogeUSC.github.io/HW3_YQOHjF/HW3_home.html">Home</a>
+                  <a href="./HW3_home.html#italian">Italian</a>
+                  <a href="./HW3_home.html#indian">Indian</a>
+                  <a href="./HW3_home.html#japanese">Japanese</a>
+                  <a href="./HW3_home.html#desserts">Desserts</a>
+                  <a href="./welcome.html" target="_blank">About</a>
+                  <a href="./welcome.html" target="_blank">Contact</a>
+              </nav>
+          </div>
         </head>
       
         <section class="container"> 
-            <div>
-                <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg"width="1000" height="600"> 
-                <div>Enjoy the Scenic View!!</div>
-                <b>Book Your Reservation</b>
+            
+            
+            <div class="restaurant_view">
+                <div class="restaurant_img">
+                    <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg" width="900" height="500"> 
+                </div>  
+                <div class="Restaurant_word">
+                    <h2>Enjoy the Scenic View!!</h2>
+                </div>
+                <div class="Restaurant_button">
+                    <a href="">Book Your Reservation</a>
+                </div>
             </div>
-            <h1>Explore Our Delicious Cuisines</h1>
-            <ul class ="italian">
-                <div id="main_italian" class="main_img">
-                    <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Italian Cuisine.jpg" alt="italian" width="600" height="400">
-                </div>
-                <div>
-                    <p>Italy's finest:</p>
-                    <p>From out LasaGna to our Protein Penne, we</p>
-                    <p>have delicious options for every teste!</p>
-                </div>
-            </ul>
             
-            <ul class ="indian">
+            <div class="introduction">
+                <h>Explore Our Delicious Cuisines</h>
+                
                 <div>
-                    <p>India's Flavors:</p>
-                    <p>Our dishes are blended with masterful</p>
-                    <p>savory spices</p>
+                    <ul id ="italian" class="content">
+                        <div id="italian_img">
+                            <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Italian Cuisine.jpg" alt="italian" width="400" height="300">
+                        </div>
+                        <div id="italian_description">
+                            <h3>Italy's finest:</h3>
+                            <p>From our Lasagna to our Protein Penne, we</p>
+                            <p>have delicious options for every teste!</p>
+                        </div>
+                    </ul>
+
+                    <ul id ="indian" class="content">
+                        <div id="indian_description">
+                            <h3>India's Flavors:</h3>
+                            <p>Our dishes are blended with masterful</p>
+                            <p>savory spices</p>
+                        </div>
+                        <div id="indian_img">
+                            <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Indian%20Cuisine.jpg" alt="indian" width="400" height="300">
+                        </div>
+                    </ul>
+
+                    <ul id ="japanese" class="content">
+                        <div id="japanese_img">
+                            <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Japanese%20Cuisine.jpg" alt="japanese" width="400" height="300">
+                        </div>
+                        <div id="japanese_description">
+                            <h3>Japanese Cuisine:</h3>
+                            <p>Delicious dining options from Sake to Sushi</p>
+                        </div>
+                    </ul>
+
+                    <ul id ="desserts" class="content">
+                        <div id="desserts_description">
+                            <h3>Desserts:</h3>
+                            <p>From Italian Tiramisu to Indian Gulab</p>
+                            <p>Jamun</p>
+                        </div>
+                        <div id="desserts_img">
+                            <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Desserts.jpg" alt="desserts" width="400" height="300">
+                        </div>
+                    </ul>
                 </div>
-                <div id="main_indian" class="main_img">
-                    <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Indian%20Cuisine.jpg" alt="indian" width="600" height="400">
-                </div>
-            </ul>
-            
-            <ul class ="japanese">
-                <div id="main_japanese" class="main_img">
-                    <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Japanese%20Cuisine.jpg" alt="japanese" width="600" height="400">
-                </div>
-                <div>
-                    <p>Japanese Cuisine:</p>
-                    <p>Delicious dining options from Sake to Sushi</p>
-                </div>
-            </ul>
-            
-            <ul class ="desserts">
-                <div>
-                    <p>Desserts:</p>
-                    <p>From Italian Tiramisu to Indian Gulab</p>
-                    <p>Jamun</p>
-                </div>
-                <div id="main_desserts" class="main_img">
-                    <img src="https://wenhaogeusc.github.io/HW3_YQOHjF/Desserts.jpg" alt="desserts" width="600" height="400">
-                </div>
-            </ul>
+            </div>
         </section>
   </body>
   
