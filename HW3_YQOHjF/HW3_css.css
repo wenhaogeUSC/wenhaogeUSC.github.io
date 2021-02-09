@@ -26,20 +26,27 @@ body {
 	text-decoration: none;
 }
 
+.container {
+/*    padding-top: 50px;*/
+}
+
 /*restaurant_view*/
 
 .restaurant_view {
-    margin-top: 50px;
-    position: relative;
-    background-image: url("https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg");
+/*    background-image: url("https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg");*/
+    background-image: url("./Restaurant.jpeg");
     height: 500px;
-    width: 900px;
+    width: 915px;
     background-attachment: fixed;
-    background-position: absolute;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 90% 90%;
+/*    position: absolute;*/
+    
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 50px;
 }   
 
 
@@ -70,7 +77,6 @@ body {
 .introduction {
     margin-top: 60px;
     margin-left: 70px;
-    
 }
 
 .introduction h {
@@ -85,9 +91,9 @@ body {
     padding-top: 50px;
 }
 
-introduction {
-    padding: 30px;
-    margin: 0px;
+.content {
+
+    padding-bottom: 40px;
 }
 
 h3 {
