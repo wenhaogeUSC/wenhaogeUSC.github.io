@@ -6,24 +6,25 @@ body {
 }
 .top_header {
     color: navy;
-    padding-left: 400px;
+    padding-left: 350px;
     font-size: 18x;
     font-weight: 500px;
     font-family: Georgia, serif;
     height: 50px;
     margin-top: 0px;
+
 }
 
 .nav_bar {
 
-    background-color: beige;
+    background-color: blanchedalmond;
     
     padding-top: 5px;
     padding-left: 70px;
     margin-right: 0px;
     margin-bottom: 1px;
     height: 30px;
-    width: 900px;
+    width: 800px;
 
 }
 .nav_bar a {
@@ -43,24 +44,30 @@ body {
 /*restaurant_view*/
 .restaurant_view_outer {
     height: 400px;
-    width: 730px;
+    width: 750px;
     
     margin-top: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 0px;
 
+    padding-right: 0px;
 }
 .restaurant_view_inner {
     background-image: url("https://wenhaogeusc.github.io/HW3_YQOHjF/Restaurant.jpeg");
     /*    background-image: url("./Restaurant.jpeg");*/
-    height: 400px;
-    width: 730px;
-    
+/*    height: 350px;*/
+    width: 750px;
+    min-height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-origin: content-box;
-
+    
+    position: absolute;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .Restaurant_word{
@@ -93,7 +100,7 @@ body {
 .introduction {
     margin-top: 20px;
     margin-left: 30px;
-    
+    padding-top: 20px;
 /*    position: absolute;*/
 }
 
@@ -106,7 +113,7 @@ body {
     text-decoration-style: double;
     
     padding-left: 300px;
-    margin-top: 50px;
+/*    margin-top: 50px;*/
     padding-top: 50px;
 }
 
